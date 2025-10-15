@@ -16,5 +16,5 @@ jobs:
           curl -X POST \
             -H "Authorization: token $GH_TOKEN" \
             -H "Accept: application/vnd.github+json" \
-            https://api.github.com/repos/<YOUR_USERNAME>/<ANCHOR_REPO_NAME>/actions/workflows/<ANCHOR_WORKFLOW_FILENAME>.yml/dispatches \
+            https://api.github.com/repos/alicechaitea/anchor-repo/actions/workflows/anchor.yml/dispatches \
             -d '{"ref":"main"}'
